@@ -1,0 +1,101 @@
+/* Body and page container */
+body {
+  margin: 20px;
+  text-align: center;
+
+  /* Layered gray-blue background */
+  background:
+    linear-gradient(135deg, #d0d4db, #aab4c4) 0 0 / 100% 20% no-repeat,
+    linear-gradient(135deg, #909db4, #6e7d96) 0 20% / 100% 20% no-repeat,
+    linear-gradient(135deg, #3a5070, #2a3c58) 0 40% / 100% 20% no-repeat,
+    linear-gradient(135deg, #253550, #19283a) 0 60% / 100% 40% no-repeat;
+  background-color: #19283a;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+h2{
+  color:white;
+  padding: 10px;
+  margin: auto;
+}
+
+h3{
+  color:white;
+  padding: 10px;
+  margin: auto;
+}
+
+/* Input section */
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  margin: 5px auto;
+  vertical-align: middle;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  margin: 8px 4px auto;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* User display area container */
+#userDisplayArea {
+  margin-top: 20px;
+  text-align: center; /* center text inside */
+}
+
+/* Individual user display blocks */
+#userDisplayArea > div {
+  margin: 20px auto;       /* centers the block horizontally */
+  padding: 15px;
+  width: 60%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;      /* centers the text inside each block */
+  box-sizing: border-box;
+}
+
+/* ID and Name display formatting */
+#userDisplayArea h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#userDisplayArea p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+#userDisplayArea div div {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #000;
+}
+
+/* Label styling for checkboxes/radios */
+label {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
