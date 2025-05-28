@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+   
+}
+.hero{
+
+    
+    min-height: 100vh;
+    background-image: url(wp3614525-star-wars-4k-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+
+}
+
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li 
+{
+display: inline-block;
+list-style: none;
+margin: 10px 15px;
+}
+
+
+nav ul li a{
+    
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+
+}
+.content{
+    margin-top: 10px;
+    max-width: 800fpx;
+    
+
+}
+.content h1{
+
+    font-size: 70px;
+    color: white;
+    align-self: start;
+}
+.content h3{
+    margin-top: 10px;
+    color: white;
+
+}
+.content p{
+    margin-top: 10px;
+    max-width: fit-content;
+    color: white;
+
+
+}
+.content ul li {
+    font-size: 25px;
+    margin-top: 10px;
+    pad: 10px;
+    color: white;
+}
+
+
+section h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+}
+section ul li {
+    color: white;
+    margin-top: 10px
+}
+section ul, ol li {
+    color: white;
+    margin-top: 10px
+}
+section h3 {
+    color: white;
+    margin-top: 10px
+}
+
+section p {
+    color: white;
+    margin-top: 25px
+
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    color: white;
+  }
+.active-home img{
+    max-width: 400px;
+}
+
+.smart img{
+    max-width: 400px;
+}
+
+.project{
+    display: flex;
+    
+}
+
+
+.main-container{
+    display: flex;
+}
+
+.active-home {
+    margin-right: 50px ;
+    width: 400px; 
+    height: 100px; 
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  .active-home:hover {
+    height: 800px; 
+  }
+  
+  .active-home img {
+    width: 100%;
+    display: block;
+  }
+
+  .smart {
+    width: 400px; 
+    height: 100px; 
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  .smart:hover {
+    height: 800px; 
+  }
+  
+  .smart img {
+    width: 100%;
+    display: block;
+  }
+  .contact{
+    width: 510px;
+    background-color: black; 
+    padding: 50px;
+    opacity: 0.5;
+  }
